@@ -1,0 +1,100 @@
+/* 유틸리티 스타일 */
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ir {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* 레이아웃 스타일 */
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 390px;
+  height: 850px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 30px auto;
+  width: 116px;
+  height: 30px;
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  width: 209px;
+  height: 14px;
+  font-family: "Spoqa Han Sans Neo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.profile {
+  position: relative;
+  margin: 30px auto;
+  width: 110px;
+  height: 110px;
+}
+
+.img-profile {
+  width: 110px;
+  height: 110px;
+  /* margin-top: 30px; */
+  /* margin: 0 auto; */
+}
+
+.btn-upload_profile,
+.img-upload_profile {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+}
+
+.inp-container {
+  width: 322px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.inp-container label {
+  display: block;
+  width: fit-content;
+}
+
+.inp-container input {
+  width: 322px;
+}

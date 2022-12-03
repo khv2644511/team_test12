@@ -93,8 +93,18 @@ p {
 .inp-container label {
   display: block;
   width: fit-content;
+  margin: 10px 0;
 }
 
 .inp-container input {
   width: 322px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.btn-exc {
+  width: 322px;
+  height: 44px;
+  border: 1px solid black;
 }
